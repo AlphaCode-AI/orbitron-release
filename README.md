@@ -28,12 +28,12 @@ Download the appropriate binary for your platform from the [releases page](https
 **macOS:**
 ```bash
 # Apple Silicon (M1/M2/M3)
-curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-macos-arm64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/latest/download/orbitron-macos-arm64
 chmod +x orbitron
 sudo mv orbitron /usr/local/bin/
 
 # Intel
-curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-macos-x86_64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/latest/download/orbitron-macos-x86_64
 chmod +x orbitron
 sudo mv orbitron /usr/local/bin/
 ```
@@ -41,12 +41,12 @@ sudo mv orbitron /usr/local/bin/
 **Linux:**
 ```bash
 # AMD64
-curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-linux-x86_64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/latest/download/orbitron-linux-x86_64
 chmod +x orbitron
 sudo mv orbitron /usr/local/bin/
 
 # ARM64
-curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-linux-arm64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/latest/download/orbitron-linux-arm64
 chmod +x orbitron
 sudo mv orbitron /usr/local/bin/
 ```
@@ -54,7 +54,7 @@ sudo mv orbitron /usr/local/bin/
 **Windows:**
 ```powershell
 # Download from browser or use PowerShell
-Invoke-WebRequest -Uri "https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-windows-x86_64.exe" -OutFile "orbitron.exe"
+Invoke-WebRequest -Uri "https://github.com/AlphaCode-AI/orbitron-release/releases/latest/download/orbitron-windows-x86_64.exe" -OutFile "orbitron.exe"
 # Add to PATH or run from current directory
 ```
 
