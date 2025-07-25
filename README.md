@@ -21,7 +21,42 @@ Visit the [Releases](../../releases) page to download the latest version of Orbi
 
 ## Installation
 
-[Add installation instructions specific to your project]
+### Download Pre-built Binaries
+
+Download the appropriate binary for your platform from the [releases page](https://github.com/AlphaCode-AI/orbitron/releases/tag/v0.1.0):
+
+**macOS:**
+```bash
+# Apple Silicon (M1/M2/M3)
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-macos-arm64
+chmod +x orbitron
+sudo mv orbitron /usr/local/bin/
+
+# Intel
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-macos-x86_64
+chmod +x orbitron
+sudo mv orbitron /usr/local/bin/
+```
+
+**Linux:**
+```bash
+# AMD64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-linux-x86_64
+chmod +x orbitron
+sudo mv orbitron /usr/local/bin/
+
+# ARM64
+curl -L -o orbitron https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-linux-arm64
+chmod +x orbitron
+sudo mv orbitron /usr/local/bin/
+```
+
+**Windows:**
+```powershell
+# Download from browser or use PowerShell
+Invoke-WebRequest -Uri "https://github.com/AlphaCode-AI/orbitron-release/releases/download/v0.1.0/orbitron-windows-x86_64.exe" -OutFile "orbitron.exe"
+# Add to PATH or run from current directory
+```
 
 ## Support
 
