@@ -17,13 +17,9 @@ All stable releases of Orbitron are published here. You can find:
 
 ## Download
 
-Visit the [Releases](../../releases) page to download the latest version of Orbitron for your platform.
+Visit the [Releases](https://orbitron.alphacode.ai/download) page to download the latest version of Orbitron for your platform.
 
 ## Installation
-
-### Download Pre-built Binaries
-
-Download the appropriate binary for your platform from the [releases page](https://github.com/AlphaCode-AI/orbitron/releases/tag/v0.1.0):
 
 **macOS:**
 ```bash
